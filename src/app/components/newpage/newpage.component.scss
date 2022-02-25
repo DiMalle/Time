@@ -1,0 +1,468 @@
+
+.fixed {
+    justify-content: center;
+    position: fixed;
+    width: 100%;
+    transition: 0.6s linear;
+    top: 0px;
+    left: 0;
+    right: 0;
+    z-index: 10;
+}
+
+.nofixed {
+    justify-content: center;
+    position: static;
+    transition: 0.6s linear;
+    top: -50px;
+}
+
+.navbar{
+    background-color: #f4f4f4;
+}
+nav ul li a{
+    color: #6d6d6d;
+    position: relative;
+}
+nav ul li a::before{
+    content: '';
+    position: absolute;
+    background: #722;
+    width: 0;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    transition: 0.4s all ease-in-out;
+}
+
+nav ul li a:hover::before{
+    cursor: pointer;
+    width: 100%;
+}
+.containers{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.title{
+    margin-bottom: 10px;
+    padding-bottom: 40px;
+    text-align: center;
+    position: relative;
+    font-style: italic;
+}
+.title::before{
+     content: '';
+     width: 200px;
+     height: 3px;
+     background: #dbdbdb;
+     opacity: .6;
+     position: absolute;
+     bottom: 15%;
+     left: 50%;
+     transform: translateX(-50%);
+}
+.title::after{
+    content: '\f005';
+    font-family: FontAwesome;
+    color: #dbdbdb;
+    width: 50px;
+    height: 20px;
+    line-height: 20px;
+    position: absolute; 
+    bottom: 10%;
+    left: 50%;
+    background: #eee;
+    transform: translateX(-50);
+    font-size: 16px; 
+}
+.title p{
+    color: #999;
+    font-style: italic;
+    font-weight: 700;
+    margin: 0;
+}
+.title h1{
+    font-size: 44px;
+    color: #131313;
+    font-weight: 900 ;
+}
+section div div i{
+    padding-left: 20px;
+    font-size: 17px;
+    transition: 300ms all ease-in-out;
+    // margin-left: 1100px;
+}
+section div div i:hover{
+    font-size: 20px;
+    color: #722;
+    cursor: pointer;
+}
+
+
+
+
+// animation  test
+
+.policy-p-card{
+    background: #fff;
+    padding:195px 30px 25px 30px;
+    border-radius: 5px;
+    // border-bottom: 1px solid #a8a8a8;
+    position: relative;
+    top: 0;
+    text-align: center;
+    padding-top: 25px;
+    border-left:1px solid #cecdcd;
+    border-right: 1px solid #cecdcd;
+}
+
+
+.policy-p-card h2{
+    text-transform: capitalize;
+    line-height: 24px;
+    font-size: 18px;
+    font-weight: 700;
+    margin:18px 0 10px ;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+
+
+.policy-p-card h2:hover{
+    text-decoration: underline;
+    color: #9b8078;
+}
+
+.policy-p-card p{
+    color: #777;
+    line-height: 21px;
+    font-size: 14px;
+    transition: all .3s ease;
+    font-weight: 500;
+}
+
+.policy-img img:hover{
+    transform: scale(1.2);
+ }
+
+
+.policy-img{
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+}
+.policy-img img{
+    width: 100%;
+    height: 100%;
+    transition: all .3s ease;
+}
+
+
+.read-more{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 14px 0;
+    display: block;
+    background: #333;
+    text-align: center;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.policy-img-i img:hover{
+    transform: scale(1.2);
+ }
+
+
+.policy-img-i{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+.policy-img-i img{
+    width: 100%;
+    height: 100%;
+    transition: all .3s ease;
+}
+
+.second-title{
+    margin-bottom: 10px;
+    padding-bottom: 40px;
+    text-align: center;
+    position: relative;
+    font-style: italic;
+}
+.second-title::before{
+    content: '';
+     width: 100%;
+     height: 3px;
+     background: #dbdbdb;
+     opacity: .6;
+     position: absolute;
+     bottom: 15%;
+     left: 50%;
+     transform: translateX(-50%);
+}
+.second-title h1{
+    font-size: 44px;
+    color: #131313;
+    font-weight: 900 ;
+    transition: .6s all ease-in-out;
+}
+.second-title h1:hover{
+    cursor: pointer;
+    color: #722;
+    text-decoration:none;
+}
+
+
+.side-card{
+    background: #fff;
+    padding:195px 30px 25px 30px;
+    border-radius: 5px;
+    // border-bottom: 1px solid #a8a8a8;
+    position: relative;
+    top: 0;
+    text-align: left;
+    padding-top: 25px;
+    border-left:1px solid #cecdcd;
+    border-right: 1px solid #cecdcd;
+}
+.side-card h2{
+    font-size: 20px;
+}
+
+.side-card h2:hover{
+    cursor: pointer;
+    color: #9b8078;
+    text-decoration: underline;
+}
+
+
+.big-img{
+    width: 100%;
+    height: 500px;
+    overflow: hidden;
+}
+.big-img img{
+    width: 100%;
+    height: 100%;
+    transition: all .3s ease;
+}
+
+
+.insta-tof{
+    background-color: #f0f0f0;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 12px 0px 40px 0 ;
+}
+
+.gal{
+    font-size: 13px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 10px;
+}
+
+
+.policy-img-foot img:hover{
+    transform: scale(1.2);
+ }
+
+
+.policy-img-foot{
+    width: 100%;
+    height: 60px;
+    overflow: hidden;
+}
+.policy-img-foot img{
+    width: 100%;
+    height: 100%;
+    transition: all .3s ease;
+}
+
+.footer-H1{
+    text-align: center;
+}
+
+.foot-p{
+    text-align: center;
+}
+
+.lien{
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    color: #111;
+}
+
+.lien a{
+    text-decoration: none;
+    color: #6d6d6d;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: .4s all ease-in-out;
+}
+
+.lien a:hover{
+    font-size: 18px;
+    color: #722;
+}
+
+.spa{
+    border-radius: 10%;
+    border-right: 1px solid #9e1a1a;
+}
+.spt{
+    border-radius: 3%;
+    border-right:1px solid #9e1a1a ;
+}
+.mine:hover{
+    cursor: pointer;
+    text-decoration: underline;
+    color: #9b8078;
+}
+// .read-more i {
+//     margin-left: 4px;
+// }
+// .read-more:hover{
+//     // background: #ff4000;
+//     color: #fff;
+// }
+// .read-more:hover i{
+//     margin-left: 6px;
+// }
+
+/* Test */
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 62vh;
+    // background-color: #d1cdcd;
+}
+
+.wrapper .card{
+    background: #fff;
+    width: 430px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    opacity: 0;
+    pointer-events: none;
+    position: absolute;
+    justify-content: space-between;
+    // border-radius: 100px 20px 20px 100px;
+    border-radius: 50px;
+    animation: animate 15s linear infinite;
+    animation-delay: calc(3s * var(--delay));
+}
+.wrapper:hover .card{
+    animation-play-state: paused;
+}
+.wrapper .card:last-child{
+    animation-delay: calc(-3s * var(--delay));
+
+}
+@keyframes animate {
+    0%{
+        opacity: 0;
+        transform: translateY(100%) scale(0.5);
+    }
+    5%, 20%{
+        opacity: 0.4;
+        transform: translateY(100%) scale(0.7);
+    }
+    25%, 40%{
+        opacity: 1;
+        pointer-events: auto;
+        transform: translateY(0%) scale(1);
+    }
+    45%, 60%{
+        opacity: 0.4;
+        transform: translateY(-100%) scale(0.7);
+    }
+    65%, 100%{
+        opacity: 0;
+        transform: translateY(-100%) scale(0.5);
+    }
+    
+}
+.card .content{
+    display: flex;
+    align-items: center;
+}
+.wrapper .card .img{
+    height: 90px;
+    width: 90px;
+    position: absolute;
+    left: 15px;
+    top: 20px;
+    background: #fff;
+    border-radius: 50%;
+    padding: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+}
+.card .img img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.card .details{
+    margin-left: 80px;
+}
+.details span{
+    font-weight: 600;
+    font-size: 18px;
+    margin-left: 12px;
+}
+.details a{
+    text-decoration: none;
+    background: linear-gradient(to bottom, #bea2e7 0%, #86b7e7 100%);
+}
+.card a{
+    text-decoration: none;
+    padding: 7px 18px;
+    border-radius: 25px;
+    color: #fff;
+    background: linear-gradient(to bottom, #bea2e7 0%, #86b7e7 100%);
+
+}
+.details p{
+    margin-left: 12px;
+}
+.p-style{
+    font-style: italic;
+    font-weight: 10px;
+    color: #722;
+}
+
+/* 
+body {
+    background: #232321;
+  }
+  h1 {
+    color: #fff;
+    padding: 10px 0;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    border: none;
+    &:hover {
+      box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+    }
+    a {
+      color: initial;
+      &:hover {
+        text-decoration: initial;
+      }
+    }
+    .text-muted i {
+      margin: 0 10px;
+    }
+  } */
+  

@@ -1,0 +1,541 @@
+<section class="bg-color">
+    <div class="containers">
+        <div class="title">
+            <h1><span>Times</span> Writer</h1>
+            <p>BREAKING NEWS · WORLD NEWS · POLITICS – SINCE 2012</p>
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-linkedin"></i>
+            <i class="fa fa-vk"></i>
+        </div>
+    </div>
+    <nav class="navbar navbar-expand-sm  navbar-dark text-center" (scroll)="onscroll()"
+        [ngClass]="fixednavbar?'fixed':'nofixed'">
+        <!-- <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor02"
+            aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button> -->
+        <ul class="navbar-nav">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Accueil</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Voyages</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Contactez-nous</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">A propos</a>
+            </li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <div class="policy-p-card">
+                    <!-- <div class="date">
+                        <h3>{{date | date:'d'}}</h3>
+                        <h4>{{date | date: 'MMM'}}</h4>
+                    </div> -->
+                    <div class="policy-img">
+                        <img src="../../../assets/img/small.jpg" alt="P1">
+                    </div>
+                    <h2>Enter at your peril, past the vaulted door</h2>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                        totam
+                    </p>
+                    <p>September 03</p>
+
+                    <div class="policy-img">
+                        <img src="../../../assets/img/kl.jpg" alt="P1">
+                    </div>
+                    <h2>Enter at your peril, past the vaulted door</h2>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                        totam
+                    </p>
+
+                </div>
+            </div>
+
+            <div class="col-sm-6">
+                <div class="policy-p-card">
+                    <div class="policy-img-i">
+                        <img src="../../../assets/img/helena-lopes-LSdo2qHFI8k-unsplash-1536x1024.jpg" alt="P1">
+                    </div>
+                    <h2>Welcome To The Finest WordPress Theme For Writers</h2>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                        totam
+                        rem
+                        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                        explicabo.
+                        Nemo enim </p>
+                    <a href="" class="read-more">Read More <i class="fa fa-caret-right"></i></a>
+                </div>
+            </div>
+
+
+
+            <div class="col-sm-3">
+                <div class="policy-p-card">
+                    <div class="policy-img">
+                        <img src="../../../assets/img/h_dzha-fGKG0havV4w-unsplash-480x694.jpg" alt="P1">
+                    </div>
+                    <h2>Hero-Half Post Example</h2>
+                    <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium,
+                        totam
+                        rem
+                        aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                        explicabo.
+                        Nemo enim</p>
+
+                </div>
+            </div>
+
+        </div>
+
+        <div class="second-title">
+            <h1>Business</h1>
+        </div>
+    </div>
+    <section class="policy-product">
+        <div class="container">
+            <owl-carousel-o [options]="customOptions">
+                <ng-template carouselSlide>
+                    <div class="col-sm">
+                        <div class="policy-p-card">
+                            <div class="policy-img">
+                                <img src="../../../assets/img/1.jpg" alt="P1">
+                            </div>
+                            <h2>There’s gloom and doom when things go boom in Dexter’s lab</h2>
+                            <p>Ei mei scripta intellegat. Verear voluptaria eam at, consul putent eu vel. Pro saepe
+                                maluisset
+                                ne, audire maiorum forensibus eos et. Diceret detraxit vis</p>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="col-sm">
+                        <div class="policy-p-card">
+                            <div class="policy-img">
+                                <img src="../../../assets/img/2.jpg" alt="P1">
+                            </div>
+                            <h2>My entrance exam was on a book of matches</h2>
+                            <p>Ei mei scripta intellegat. Verear voluptaria eam at, consul putent eu vel. Pro saepe
+                                maluisset
+                                ne, audire maiorum forensibus eos et. Diceret detraxit vis</p>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="col-sm">
+                        <div class="policy-p-card">
+                            <div class="policy-img">
+                                <img src="../../../assets/img/3.jpg" alt="P1">
+                            </div>
+                            <h2>Tonight what heights we’ll hit, on with the show this is it</h2>
+                            <p>Ei mei scripta intellegat. Verear voluptaria eam at, consul putent eu vel. Pro saepe
+                                maluisset
+                                ne, audire maiorum forensibus eos et. Diceret detraxit vis</p>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="col-sm">
+                        <div class="policy-p-card">
+                            <div class="policy-img">
+                                <img src="../../../assets/img/4.jpg" alt="P1">
+                            </div>
+                            <h2>I’m a high school graduate</h2>
+                            <p>Ei mei scripta intellegat. Verear voluptaria eam at, consul putent eu vel. Pro saepe
+                                maluisset
+                                ne, audire maiorum forensibus eos et. Diceret detraxit vis</p>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="col-sm">
+                        <div class="policy-p-card">
+                            <div class="policy-img">
+                                <img src="../../../assets/img/5.jpg" alt="P1">
+                            </div>
+                            <h2>My name is Rhoda Morgenstern</h2>
+                            <p>Ei mei scripta intellegat. Verear voluptaria eam at, consul putent eu vel. Pro saepe
+                                maluisset
+                                ne, audire maiorum forensibus eos et. Diceret detraxit vis</p>
+                        </div>
+                    </div>
+                </ng-template>
+            </owl-carousel-o>
+
+            <div class="second-title">
+                <h1>Politics</h1>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-7">
+                    <div class="policy-p-card">
+                        <div class="big-img">
+                            <img src="../../../assets/img/tee.jpg" alt="P1">
+                        </div>
+                        <h2>When you tell them the truth</h2>
+                        <p>Ei mei scripta intellegat. Verear voluptaria eam at, consul putent eu vel. Pro saepe
+                            maluisset
+                            ne, audire maiorum forensibus eos et. Diceret detraxit vis at. Eum et idque tollit
+                            assentior,
+                            ullum soleat usu id.</p>
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <div class="wrapper">
+                        <div class="card" style="--delay:-1;">
+                            <div class="content">
+                                <div class="img"><img src="../../../assets/img/side-1.jpg">
+                                </div>
+                                <div class="details">
+                                    <span class="name">Overture, curtains, lights</span>
+                                    <p>Patrioque assentior ea vim. Volutpat salutandi ex his, cu sea soluta meliusr</p>
+                                </div>
+                            </div>
+                            <p class="p-style">September 05</p>
+                        </div>
+                        <div class="card" style="--delay:0;">
+                            <div class="content">
+                                <div class="img"><img src="../../../assets/img/side-2.jpg">
+                                </div>
+                                <div class="details">
+                                    <span class="name">New York, this is your last chance</span>
+                                    <p>Quo natum nemore putant in, his te case habemus. Nulla detraxit explicari</p>
+                                </div>
+                            </div>
+                            <p class="p-style">December 03</p>
+                        </div>
+                        <div class="card" style="--delay:1;">
+                            <div class="content">
+                                <div class="img"><img src="../../../assets/img/small.jpg">
+                                </div>
+                                <div class="details">
+                                    <span class="name">Enter At Your Peril, Past The Vaulted </span>
+                                    <p>Duo dolorum mandamus mnesarchum te. Sit ridens persius ex. Vel noluisse perpetua
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="p-style">September 03</p>
+                        </div>
+                        <div class="card" style="--delay:2;">
+                            <div class="content">
+                                <div class="img"><img src="../../../assets/img/kl.jpg">
+                                </div>
+                                <div class="details">
+                                    <span class="name">I decided to move out of the house</span>
+                                    <p>Labores incorrupte vim an. Id augue populo alienum usu, has harum consectetuer
+                                    </p>
+                                </div>
+                            </div>
+                            <p class="p-style">May 03</p>
+                        </div>
+                        <div class="card" style="--delay:2;">
+                            <div class="content">
+                                <div class="img"><img src="../../../assets/img/5.jpg">
+                                </div>
+                                <div class="details">
+                                    <span class="name">My name is Rhoda Morgenstern</span>
+                                    <p>Lorem ipsum dolor sit amet, ei officiis assueverit pri, duo volumus commune
+                                        molestiae ad, cum at clita latine. Tation nominavi quo id. An est</p>
+                                </div>
+                            </div>
+                            <p class="p-style">April 05</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="second-title">
+                <h1>Voyages</h1>
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="container">
+            <owl-carousel-o [options]="voyageOptions">
+                <ng-template carouselSlide>
+                    <div class="col-sm">
+                        <div class="policy-p-card">
+                            <div class="policy-img">
+                                <img src="../../../assets/img/v1.jpg" alt="P1">
+                            </div>
+                            <h2>A Trip to Middle East</h2>
+                            <p>Ei mei scripta intellegat. Verear voluptaria eam at, consul putent eu vel. Pro saepe
+                                maluisset
+                                ne, audire maiorum forensibus eos et. Diceret detraxit vis</p>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="col-sm">
+                        <div class="policy-p-card">
+                            <div class="policy-img">
+                                <img src="../../../assets/img/v2.jpg" alt="P1">
+                            </div>
+                            <h2>B&W Photography</h2>
+                            <p>Ei mei scripta intellegat. Verear voluptaria eam at, consul putent eu vel. Pro saepe
+                                maluisset
+                                ne, audire maiorum forensibus eos et. Diceret detraxit vis</p>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="col-sm">
+                        <div class="policy-p-card">
+                            <div class="policy-img">
+                                <img src="../../../assets/img/v3.jpg" alt="P1">
+                            </div>
+                            <h2>Last Trip to Pakistan</h2>
+                            <p>Ei mei scripta intellegat. Verear voluptaria eam at, consul putent eu vel. Pro saepe
+                                maluisset
+                                ne, audire maiorum forensibus eos et. Diceret detraxit vis</p>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="col-sm">
+                        <div class="policy-p-card">
+                            <div class="policy-img">
+                                <img src="../../../assets/img/v4.jpg" alt="P1">
+                            </div>
+                            <h2>I’ve got a nasty reputation</h2>
+                            <p>Ei mei scripta intellegat. Verear voluptaria eam at, consul putent eu vel. Pro saepe
+                                maluisset
+                                ne, audire maiorum forensibus eos et. Diceret detraxit vis</p>
+                        </div>
+                    </div>
+                </ng-template>
+                <ng-template carouselSlide>
+                    <div class="col-sm">
+                        <div class="policy-p-card">
+                            <div class="policy-img">
+                                <img src="../../../assets/img/v5.jpg" alt="P1">
+                            </div>
+                            <h2>We’re not a one to saddle up and run, Bonanza</h2>
+                            <p>Ei mei scripta intellegat. Verear voluptaria eam at, consul putent eu vel. Pro saepe
+                                maluisset
+                                ne, audire maiorum forensibus eos et. Diceret detraxit vis</p>
+                        </div>
+                    </div>
+                </ng-template>
+            </owl-carousel-o>
+            <div class="second-title">
+                <h1>Nouvelle</h1>
+            </div>
+        </div>
+    </section>
+
+    <!-- Before the footer just doing it now -->
+    <section class="insta-tof">
+        <h1>@Instagram</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-2">
+                    <div class="policy-img">
+                        <img src="../../../assets/insta/Ins1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="policy-img">
+                        <img src="../../../assets/insta/Inst2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="policy-img">
+                        <img src="../../../assets/insta/Inst3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="policy-img">
+                        <img src="../../../assets/insta/Inst4.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="policy-img">
+                        <img src="../../../assets/insta/Inst5.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <div class="policy-img">
+                        <img src="../../../assets/insta/6.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div class="container">
+        <hr>
+    </div>
+    <footer class="foot">
+        <div class="container">
+            <p class="gal">Gallery</p>
+            <div class="row">
+                <div class="col-sm-1">
+                    <hr>
+                    <div class="policy-img-foot">
+                        <img src="../../../assets/footer/plage.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-sm-1">
+                    <hr>
+                    <div class="policy-img-foot">
+                        <img src="../../../assets/footer//chien.jpg" alt="">
+                    </div>
+                </div>
+
+                <div class="col-sm-1 spa">
+                    <hr>
+                    <div class="policy-img-foot">
+                        <img src="../../../assets/footer/owl.jpg" alt="">
+                    </div>
+
+                </div>
+
+                <div class="col-sm-6 spt">
+                    <h1 class="footer-H1">Times Writer</h1>
+                    <p class="foot-p">© 2020 - ALL RIGHTS RESERVED.
+                        Ei mei scripta intellegat. Verear voluptaria eam at, consul putent eu vel. Pro saepe maluisset
+                        ne, audire maiorum forensibus eos et. Diceret detraxit vis at. Eum et idque tollit assentior,
+                        ullum soleat usu id</p>
+                    <ul class="lien">
+                        <li> <a href="">about</a></li>
+                        <li><a href="">privacy</a></li>
+                        <li><a href="">help</a></li>
+                        <li><a href="">contact</a></li>
+                        <li><a href="">terms</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="col-sm-1">
+                    <div class="policy-img-foot">
+                        <img src="../../../assets/img/helena-lopes-LSdo2qHFI8k-unsplash-1536x1024.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-sm-2">
+                    <h6 class="mine">Welcome To The Finest WordPress Theme For Writers</h6>
+                    <p>Ei mei scripta intellegat. Verear voluptaria eam at, consul putent eu vel. Pro saepe</p>
+                </div>
+
+
+            </div>
+        </div>
+    </footer>
+    <!-- Test -->
+
+    <!-- 
+    <div class="container">
+        <div class="container">
+            <div class="card-columns">
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top"
+                            src="https://images.unsplash.com/photo-1535025639604-9a804c092faa?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6cb0ceb620f241feb2f859e273634393&auto=format&fit=crop&w=500&q=80"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                            <p class="card-text">
+                                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab accusantium ad alias,
+                                aliquid amet aspernatur atque culpa cum debitis dicta doloremque, dolorum ea eos et
+                                excepturi explicabo facilis harum illo impedit incidunt laborum laudantium...
+                            </p>
+                            <p class="card-text"><small class="text-muted"><i class="fas fa-eye"></i>1000<i
+                                        class="far fa-user"></i>admin<i class="fas fa-calendar-alt"></i>Jan 20,
+                                    2018</small></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top"
+                            src="https://images.unsplash.com/photo-1472076638602-b1f8b1ac0b4a?ixlib=rb-0.3.5&s=63c9de7246b535be56c8eaff9b87dd89&auto=format&fit=crop&w=500&q=80"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Consequatur, doloremque!</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio
+                                iusto maxime nemo omnis praesentium similique.</p>
+                            <p class="card-text"><small class="text-muted"><i class="fas fa-eye"></i>1000<i
+                                        class="far fa-user"></i>admin<i class="fas fa-calendar-alt"></i>Jan 20,
+                                    2018</small></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top"
+                            src="https://images.unsplash.com/photo-1535086181678-5a5c4d23aa7d?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=34c86263bec2c8f74ceb74e9f4c5a5fc&auto=format&fit=crop&w=500&q=80"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur.</h5>
+                            <p class="card-text">Amet commodi deleniti enim laboriosam odio placeat praesentium quis
+                                ratione rerum suscipit.</p>
+                            <p class="card-text"><small class="text-muted"><i class="fas fa-eye"></i>1000<i
+                                        class="far fa-user"></i>admin<i class="fas fa-calendar-alt"></i>Jan 20,
+                                    2018</small></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top"
+                            src="https://images.unsplash.com/photo-1535074153497-b08c5aa9c236?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d2aaf944a59f16fe1fe72f5057b3a7dd&auto=format&fit=crop&w=500&q=80"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur.</h5>
+                            <p class="card-text">This is a longer card with supporting text below as a natural lead-in
+                                to additional content. This content is a little bit longer.</p>
+                            <p class="card-text"><small class="text-muted"><i class="fas fa-eye"></i>1000<i
+                                        class="far fa-user"></i>admin<i class="fas fa-calendar-alt"></i>Jan 20,
+                                    2018</small></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top"
+                            src="https://images.unsplash.com/photo-1535124406821-d2848dfbb25c?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=98c434d75b44c9c23fc9df2a9a77d59f&auto=format&fit=crop&w=500&q=80"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor sit amet.</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. At,
+                                consequatur culpa cumque deserunt dignissimos error explicabo fugiat harum ipsam magni
+                                minus mollitia nemo perferendis qui repellendus rerum saepe vel voluptate voluptatem
+                                voluptatum!
+                                Aperiam, labore, molestiae!..</p>
+                            <p class="card-text"><small class="text-muted"><i class="fas fa-eye"></i>1000<i
+                                        class="far fa-user"></i>admin<i class="fas fa-calendar-alt"></i>Jan 20,
+                                    2018</small></p>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <a href="#">
+                        <img class="card-img-top"
+                            src="https://images.unsplash.com/photo-1508015926936-4eddcc6d4866?ixlib=rb-0.3.5&s=10b3a8717ab609be8d7786cab50c4e0b&auto=format&fit=crop&w=500&q=80"
+                            alt="Card image cap">
+                        <div class="card-body">
+                            <h5 class="card-title">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</h5>
+                            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque commodi
+                                debitis eaque explicabo fuga maiores necessitatibus, neque omnis optio vel!</p>
+                            <p class="card-text"><small class="text-muted"><i class="fas fa-eye"></i>1000<i
+                                        class="far fa-user"></i>admin<i class="fas fa-calendar-alt"></i>Jan 20,
+                                    2018</small></p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section> -->
