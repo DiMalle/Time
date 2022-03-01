@@ -6,6 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NewpageComponent } from './components/newpage/newpage.component';
 import { TestpageComponent } from './components/testpage/testpage.component';
+import { YouTubePlayerModule } from '@angular/youtube-player';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { TestpageComponent } from './components/testpage/testpage.component';
     BrowserModule,
     BrowserAnimationsModule,
     AppRoutingModule,
-    CarouselModule
+    CarouselModule,
+    YouTubePlayerModule
   ],
   providers: [],
   bootstrap: [AppComponent]

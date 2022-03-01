@@ -49,6 +49,7 @@ export class NewpageComponent implements OnInit {
 
   voyageOptions: OwlOptions = {
     loop: true,
+    autoplay: true,
     dots: false,
     mouseDrag: true,
     touchDrag: false,
